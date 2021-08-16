@@ -1,0 +1,33 @@
+.carouselContainer {
+    display: flex;
+    width: 10000px;
+    height: 400px;
+    margin: 20px;
+}
+
+.productContainer {
+    display: flex;
+    width: 200px;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.imgContainerCarousel {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCarousel {
+    height: 150px;
+}
+
+hr {
+    width: 200px;
+    color: rgb(250, 245, 245);
+}
