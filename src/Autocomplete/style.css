@@ -1,0 +1,27 @@
+.searcher {
+    height: 40px;
+    margin: 0;
+    display: flex;
+}
+
+.searchInput {
+    width: 450px;
+    height: 35px;
+    border: 1px solid rgb(211, 209, 209);
+    font-size: 20px;
+}
+
+.searchButton {
+    width: 39px;
+    height: 39px;
+    border: 1px solid rgb(211, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.imgSearch {
+    height: 30px;
+    margin: auto;
+}

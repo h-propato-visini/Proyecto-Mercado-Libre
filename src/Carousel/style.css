@@ -1,33 +1,17 @@
 .carouselContainer {
     display: flex;
-    width: 10000px;
+    width: 1200px;
     height: 400px;
-    margin: 20px;
+    margin: auto;
 }
 
-.productContainer {
-    display: flex;
-    width: 200px;
-    height: 350px;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10px;
-    background-color: white;
-}
-
-.imgContainerCarousel {
+.carouselMainContainer {
     width: 100%;
-    height: 200px;
+    margin-left: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
-.imgCarousel {
-    height: 150px;
-}
-
-hr {
-    width: 200px;
-    color: rgb(250, 245, 245);
+h2 {
+    margin-left: 190px;
 }

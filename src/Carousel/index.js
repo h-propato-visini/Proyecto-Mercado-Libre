@@ -5,8 +5,8 @@ import './style.css'
 class Carousel extends React.Component {
     render() {
         return (
-            <div>
-                <h2></h2>
+            <div className='carouselMainContainer'>
+                <h2>{this.props.title}</h2>
                 <div className='carouselContainer'>
                     {this.props.resultados.length > 0 ? (
                         <React.Fragment>

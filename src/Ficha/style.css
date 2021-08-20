@@ -1,0 +1,40 @@
+.fichaMainContainer {
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    margin: 40px auto;
+}
+
+.imgContainerFicha {
+    width:65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgFicha {
+    width: 50%
+}
+
+.infoFicha {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ventas {
+    font-size: 12px;
+    margin-bottom: -25px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.price {
+    font-size: 35px;
+}
+

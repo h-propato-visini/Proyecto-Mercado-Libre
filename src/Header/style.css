@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    background-color: #ffe600;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgHeader {
+    margin-bottom: 5px;
+    height: 95px;
+}
+
+.pagoContainer {
+    display: flex;
+}
+
+.imgPago {
+    height: 20px;
+    margin-right: 5px;
+}

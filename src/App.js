@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Home from './Home/index'
 import Listado from './Listado/index'
 import Ficha from './Ficha/index'
@@ -14,7 +14,7 @@ class App extends React.Component {
       <Router>
         <Route path='/' exact component={Home}></Route>
         <Route path='/listado-de-producto' exact component={Listado}></Route>
-        <Route path='/ficha-de-producto/:id' exact component={Ficha}></Route>
+        <Route path='/producto/:id' component={Ficha}></Route>
         <Route path='/checkout' exact component={CheckOut}></Route>
       </Router>
       </React.Fragment>
