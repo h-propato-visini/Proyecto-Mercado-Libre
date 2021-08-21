@@ -31,7 +31,7 @@ class Autocomplete extends React.Component {
     }
 
     async search(value) {
-        const result = await fetch (`https://api.mercadolibre.com/sites/MLA/search?q=${this.state.value}&limit=4`)
+        const result = await fetch (`https://api.mercadolibre.com/sites/MLA/search?q=${this.state.value}`)
         return await result.json()
     }
 

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 class Productos extends React.Component {
     render() {
         return (       
-                <Link to={`/producto/${this.props.data.id}`}>
+                <Link style={{textDecoration:'none'}} to={`/producto/${this.props.data.id}`}>
                     <div className='productsContainer'>
                         <div className='imgContainerCarousel'><img className='imgCarousel' src={this.props.data.thumbnail}/></div>
                         <hr/>

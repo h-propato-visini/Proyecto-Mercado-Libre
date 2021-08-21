@@ -1,19 +1,25 @@
 import React from 'react'
 import Productos from '../Productos'
 import './style.css'
+import Slider from 'react-slick'
 
 class Carousel extends React.Component {
     render() {
+        const settings = {
+            slidesToScroll: 4,
+            slidesToShow: 4,
+        };
+
         return (
             <div className='carouselMainContainer'>
                 <h2>{this.props.title}</h2>
                 <div className='carouselContainer'>
                     {this.props.resultados.length > 0 ? (
-                        <React.Fragment>
+                        <Slider {...settings}>
                             {this.props.resultados.map((item,key) => {
                                 return <Productos data={item} key={key}/>
                             })}
-                        </React.Fragment>
+                        </Slider>
                     ) : (
                         <p>Todavía no hay resultados para este carousel</p>
                     )}

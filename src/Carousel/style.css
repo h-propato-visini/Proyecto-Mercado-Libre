@@ -1,17 +1,11 @@
-.carouselContainer {
-    display: flex;
-    width: 1200px;
-    height: 400px;
-    margin: auto;
-}
-
 .carouselMainContainer {
-    width: 100%;
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
+    width: 1000px;
+    margin: 20px auto;
 }
 
-h2 {
-    margin-left: 190px;
+.carouselContainer {
+    width: 1200px;
+    height: 350px;
 }
+
+

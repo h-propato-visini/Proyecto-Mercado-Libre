@@ -2,16 +2,7 @@ body {
     background-color: rgb(224, 221, 221);
 }
 .mainContainerCarousel {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;    
     overflow: hidden;
-    margin-bottom: -20px;
-}
-
-.mainContainer-CarouselCat {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    
 }

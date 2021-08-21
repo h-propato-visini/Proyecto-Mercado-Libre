@@ -47,21 +47,13 @@ class Home extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
+            <div>
             <Header handleCallback={results => this.handleCallback(results)}/>
-            <div className='mainContainerCarousel'>
                 <Carousel title='Busquedas' resultados = {this.state.products} />
-            </div>
-            <div className='mainContainerCarousel'>
                 <Carousel title ='Videojuegos' resultados = {this.state.games} />
-            </div>
-            <div className='mainContainerCarousel'>
                 <Carousel title ='Automóviles y repuestos' resultados = {this.state.autos} />
-            </div>
-            <div className='mainContainerCarousel'>
                 <Carousel title ='Comidas y Bebidas' resultados = {this.state.comidas} />
             </div>
-            </React.Fragment>
         )
     }
 }
