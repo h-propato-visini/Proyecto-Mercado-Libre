@@ -48,7 +48,7 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-            <Header handleCallback={results => this.handleCallback(results)}/>
+            <Header show='true' handleCallback={results => this.handleCallback(results)}/>
                 <Carousel title='Busquedas' resultados = {this.state.products} />
                 <Carousel title ='Videojuegos' resultados = {this.state.games} />
                 <Carousel title ='Automóviles y repuestos' resultados = {this.state.autos} />

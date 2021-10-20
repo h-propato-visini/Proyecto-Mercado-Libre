@@ -1,0 +1,82 @@
+.fichaMainContainer {
+    width: 75%;
+    min-height: 450px;
+    background-color: white;
+    display: flex;
+    margin: 40px auto;
+}
+
+.imgContainerFicha {
+    width: 55%;
+
+    .slick-slider {
+        height: 90%;
+        margin: 0 auto;
+
+        .slick-list {
+            left: 50px;
+            width: 70%;
+            margin-bottom: 30px;
+
+            .imgFicha {
+                margin-top: 20px;
+            }
+        }
+
+        .slick-next {
+            visibility: hidden;
+        }
+
+        .slick-prev {
+            visibility: hidden;
+        }
+    }
+}
+
+
+
+.infoFicha {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.ventas {
+    font-size: 12px;
+    margin-bottom: -25px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.price {
+    font-size: 35px;
+}
+
+.select-quantity {
+    margin: 5px;
+}
+
+.disponibility {
+    color: rgb(105, 104, 104);
+    font-size: 12px;
+}
+
+.info-Container {
+    margin: -15px;
+}
+
+.mainInfo {
+    font-size: 11px;
+    color: rgb(47, 126, 230);
+}
+
+.info {
+    font-size: 11px;
+    color: rgb(105, 104, 104);
+}
+
